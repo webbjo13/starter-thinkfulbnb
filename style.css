@@ -133,18 +133,20 @@ footer p {
 @media all and (min-width: 480px) {
   header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0;
+    padding: 15px;
   }
 
   .logo {
-    margin: 14px 0 14px 20px;
     font-size: 48px;
-    padding-top: 0;
+    padding-left: 5px;
   }
 
   header nav ul {
     align-items: center;
+    justify-content: right;
   }
 
   header nav ul li a:hover {
@@ -159,13 +161,16 @@ footer p {
   form {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
   }
 
   form div {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
   }
 
   form label {
