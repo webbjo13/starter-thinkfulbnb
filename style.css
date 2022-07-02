@@ -1,8 +1,7 @@
 /* -------  General Styles ------- */
 
 body {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   font-family: "Lato", sans-serif;
 }
 
@@ -61,6 +60,7 @@ header {
 }
 
 .logo {
+  display: flex;
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
